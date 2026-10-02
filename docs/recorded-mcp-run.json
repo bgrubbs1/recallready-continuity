@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-02T06:09:08.902Z",
+  "command": "node scripts/demo.mjs",
+  "exitCode": 0,
+  "events": [
+    {
+      "step": "disclosure",
+      "integration": "Official MCP client -> local Streamable HTTP server. Not Alexa, not voice recognition, not an LLM.",
+      "data": "One dated public CPSC snapshot plus deliberately synthetic product observations.",
+      "externalActions": "None. No network services except local loopback are called."
+    },
+    {
+      "step": "protocol",
+      "negotiatedProtocolVersion": "2025-11-25"
+    },
+    {
+      "step": "missing_fact",
+      "nextStep": {
+        "id": "record_model",
+        "instruction": "Supply the missing synthetic model from the allowed options. Do not infer it from a product name or prior conversation."
+      },
+      "eligibility": "not_determined"
+    },
+    {
+      "step": "after_real_process_restart",
+      "differentServerProcess": true,
+      "revision": 2,
+      "productFacts": {
+        "model": "Hopper M20",
+        "batch": "not_published"
+      },
+      "benefitOptions": [
+        "replacement",
+        "brand_gift_card"
+      ],
+      "cashStatus": "not_verified_or_received"
+    },
+    {
+      "step": "evidence",
+      "source": "https://www.cpsc.gov/Recalls/2023/YETI-Recalls-1-9-Million-Soft-Coolers-and-Gear-Cases-Due-to-Magnet-Ingestion-Hazard",
+      "sourceCheckedAt": "2026-10-02T04:19:15Z",
+      "remedy": {
+        "kinds": [
+          "replacement",
+          "brand_gift_card"
+        ],
+        "cashPaymentVerified": false,
+        "summary": "The current CPSC remedy text describes free return for replacement or refund in the form of a YETI gift card; do not call it cash."
+      },
+      "observations": [
+        {
+          "field": "model",
+          "value": "Hopper M20",
+          "sourceKind": "client_supplied_synthetic_observation",
+          "independentlyVerified": false
+        },
+        {
+          "field": "batch",
+          "value": "not_published",
+          "sourceKind": "client_supplied_synthetic_observation",
+          "independentlyVerified": false
+        }
+      ]
+    },
+    {
+      "step": "unsupported_payment_completion",
+      "rejected": true,
+      "revisionUnchanged": true
+    },
+    {
+      "step": "local_preparation_only",
+      "nextStep": {
+        "id": "human_handoff",
+        "instruction": "Local preparation is recorded. A person must verify ownership and eligibility, current terms, and any claim submission. No remedy or payment has been obtained."
+      },
+      "eligibility": "not_determined",
+      "moneyReceived": false,
+      "externalActionTaken": false
+    }
+  ]
+}

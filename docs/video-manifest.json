@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-10-02T06:09:08.902Z",
+  "durationSeconds": 105,
+  "videoBytes": 735520,
+  "videoSha256": "982b0a91f094e0c8837d2e1caac23639dec9f2921c7254f537b82d8cef933cc7",
+  "sourceRunExitCode": 0,
+  "evidenceAssertionsPassed": true,
+  "nature": "Edited presentation of actual command output; not real-time screen capture, not Alexa, no narration or third-party media.",
+  "scenes": [
+    {
+      "title": "Keep the missing fact, not just the chat",
+      "duration": 12
+    },
+    {
+      "title": "1. Required technology runs",
+      "duration": 8
+    },
+    {
+      "title": "2. Ask for the missing observation",
+      "duration": 15
+    },
+    {
+      "title": "3. Save, stop the server, resume",
+      "duration": 20
+    },
+    {
+      "title": "4. Keep evidence and benefit types distinct",
+      "duration": 20
+    },
+    {
+      "title": "5. Refuse a fabricated payment",
+      "duration": 15
+    },
+    {
+      "title": "6. Local preparation is not a completed claim",
+      "duration": 15
+    }
+  ]
+}

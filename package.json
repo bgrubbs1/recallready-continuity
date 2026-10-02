@@ -1,0 +1,21 @@
+{
+  "name": "recallready-continuity",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Synthetic-only, evidence-linked recall case continuity over MCP Streamable HTTP.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "demo": "node scripts/demo.mjs",
+    "walkthrough": "node scripts/walkthrough.mjs",
+    "source-check": "node scripts/source-check.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/server.mjs && node --check src/cases.mjs && node --check src/catalog.mjs && node --check src/public-source.mjs && node --check scripts/source-check.mjs && node --check scripts/walkthrough.mjs && npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "zod": "4.6.5"
+  },
+  "license": "MIT"
+}
